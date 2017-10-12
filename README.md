@@ -5,7 +5,7 @@ use it every day and it is pretty damn good.
 
 In my tweet "I just went from 4fps to 30fps by changing a vector<bool> to a vector<char>. !@!@%$!@#%"
 
-To elaborate, accessing vector<bool> is at least 3 times slower than accessing vector<char> in
+To elaborate, accessing `vector<bool>` is at least 3 times slower than accessing `vector<char>` in
 debug builds, even with _ITERATOR_DEBUG_LEVEL=0. It's 4x+ with _ITERATOR_DEBUG_LEVEL=2. I know I
 know it's a debug build, but I need to use the debugger on my game sometimes and it would be nice
 if it was only 2-4x slower (playable) rather than 10+x slower (not playable). As you can see in
