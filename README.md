@@ -23,29 +23,29 @@ doing a numerical simulation - pretty similar to the benchmark.
 
 Program output on my machine (Debug/x64 build)
 
-initializing
-running bools
-0: 72.27ms
-1: 68.89ms
-2: 77.40ms
-3: 70.94ms
-4: 69.86ms
-5: 69.70ms
-6: 66.22ms
-7: 66.93ms
-8: 66.94ms
-9: 67.18ms
-running chars
-0: 18.69ms
-1: 18.53ms
-2: 18.79ms
-3: 24.73ms
-4: 18.18ms
-5: 18.21ms
-6: 18.83ms
-7: 19.42ms
-8: 18.14ms
-9: 18.91ms
+    initializing
+    running bools
+    0: 72.27ms
+    1: 68.89ms
+    2: 77.40ms
+    3: 70.94ms
+    4: 69.86ms
+    5: 69.70ms
+    6: 66.22ms
+    7: 66.93ms
+    8: 66.94ms
+    9: 67.18ms
+    running chars
+    0: 18.69ms
+    1: 18.53ms
+    2: 18.79ms
+    3: 24.73ms
+    4: 18.18ms
+    5: 18.21ms
+    6: 18.83ms
+    7: 19.42ms
+    8: 18.14ms
+    9: 18.91ms
 
-bool avg: 69.63ms
-char avg: 19.24ms
+    bool avg: 69.63ms
+    char avg: 19.24ms
